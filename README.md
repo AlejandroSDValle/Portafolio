@@ -1,50 +1,63 @@
-# React + TypeScript + Vite
+# Portafolio de Alejandro SD Valle
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Bienvenido a mi portafolio personal donde presento mis proyectos, habilidades y experiencias como desarrollador web.
 
-Currently, two official plugins are available:
+## Tabla de Contenidos
+- [Descripción](#descripción)
+- [Tecnologías](#tecnologías Portafolio)
+- [Instalación](#instalación)
+- [Uso](#uso)
+- [Proyectos Destacados](#proyectos-destacados)
+- [Contacto](#contacto)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Descripción
+Este portafolio está diseñado para mostrar mis habilidades en desarrollo web, incluyendo proyectos frontend y backend, diseño responsivo y más. Mi objetivo es demostrar mi capacidad para crear aplicaciones funcionales y atractivas, así como facilitar la conexión con potenciales empleadores y colaboradores.
 
-## Expanding the ESLint configuration
+## Tecnologías Portafolio
+- **Lenguajes:** HTML, CSS
+- **Frameworks/Librerías:** React 
+- **Herramientas:** Git, GitHub, Visual Studio Code
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Instalación
 
-- Configure the top-level `parserOptions` property like this:
+### Pasos
+1. Clona el repositorio:
+    ```bash
+    git clone https://github.com/AlejandroSDValle/Portafolio.git
+    ```
+2. Navega al directorio del proyecto:
+    ```bash
+    cd Portafolio
+    ```
+3. Instala las dependencias:
+    ```bash
+    npm install
+    ```
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+## Uso
+### Ejecutar el Proyecto
+1. Inicia el servidor de desarrollo:
+    ```bash
+    npm run dev
+    ```
+2. Abre tu navegador y visita `http://localhost:5173` o  según corresponda.
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+### Capturas de Pantalla
+![Captura de Pantalla](https://github.com/user-attachments/assets/886003d9-ddb0-4cb6-ad1d-b96d5c6a39e1)
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+### Demostración en Vivo
+[Visita mi portafolio en vivo](https://66f47992e585492b5934be03--glittery-stardust-55f133.netlify.app)
+
+## Proyectos Destacados
+### Proyecto 1: Portafolio Personal
+- **Descripción:** Un portafolio web diseñado para mostrar proyectos, habilidades y experiencia. Incluye secciones de información personal, tecnologías utilizadas, y un carrusel interactivo de proyectos.
+- **Tecnologías:** React, CSS, HTML
+- **Enlace:** [Repositorio](https://github.com/AlejandroSDValle/Portafolio)
+
+
+## Contacto
+- **Correo Electrónico:** alejandro_santillan_2000@hotmail.com
+- **LinkedIn:** [Alejandro SD Valle](https://www.linkedin.com/in/alejandro-santillan-32a089218)
+- **GitHub:** [AlejandroSDValle](https://github.com/AlejandroSDValle)
+
