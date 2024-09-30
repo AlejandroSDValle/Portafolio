@@ -8,4 +8,5 @@ export type project = {
     name: string
     description: string
     tecnologies: string[]
+    link: string
 }

@@ -50,7 +50,7 @@ function ProjectSection() {
                     {projects.map((project) => (
                         <div key={project.name} className="project-card">
                             <div className="icon-container">
-                                <a href="https://github.com/yourusername/project-repo" target="_blank" rel="noopener noreferrer">
+                                <a href={project.link} target="_blank" rel="noopener noreferrer">
                                     <FaGithub className='github-icon' />
                                 </a>
                             </div>

@@ -4,7 +4,7 @@ Bienvenido a mi portafolio personal donde presento mis proyectos, habilidades y 
 
 ## Tabla de Contenidos
 - [Descripción](#descripción)
-- [Tecnologías](#tecnologías Portafolio)
+- [Tecnologías](#tecnologías-portafolio)
 - [Instalación](#instalación)
 - [Uso](#uso)
 - [Proyectos Destacados](#proyectos-destacados)
@@ -51,10 +51,19 @@ Este portafolio está diseñado para mostrar mis habilidades en desarrollo web, 
 
 ## Proyectos Destacados
 ### Proyecto 1: Portafolio Personal
-- **Descripción:** Un portafolio web diseñado para mostrar proyectos, habilidades y experiencia. Incluye secciones de información personal, tecnologías utilizadas, y un carrusel interactivo de proyectos.
+- **Descripción:** Un portafolio web diseñado para mostrar proyectos, habilidades y experiencia. Incluye secciones de información personal, tecnologías, y un carrusel interactivo de proyectos.
 - **Tecnologías:** React, CSS, HTML
 - **Enlace:** [Repositorio](https://github.com/AlejandroSDValle/Portafolio)
 
+### Proyecto 2: Sistema de Predicción de Ventas para Cremería
+- **Descripción:** Un sistema desarrollado con Django MVC para la interfaz visual y un algoritmo de Machine Learning para predecir las ventas de una cremería. Permite anticipar la demanda, evitar faltantes de stock y optimizar la gestión de inventarios.
+- **Tecnologías:** Django, Python, Machine Learning
+- **Enlace:** [Repositorio](https://github.com/AlejandroSDValle)
+
+### Proyecto 3: Sistema de Ventas Completo
+- **Descripción:** Un sistema de ventas que incluye funcionalidades de predicción de ventas, inicio de sesión de usuarios, venta en línea, gestión de pedidos, productos y proveedores. Facilita la administración y operación eficiente de una cremería.
+- **Tecnologías:** Django, React, Python, MongoDB, Machine Learning
+- **Enlace:** [Repositorio](https://github.com/AlejandroSDValle)
 
 ## Contacto
 - **Correo Electrónico:** alejandro_santillan_2000@hotmail.com
