@@ -428,20 +428,23 @@ const HeroSectionStyle = styled.header`
             display: none;
         }
         
-        .contactame-sm{
+        .contactame-sm{ 
             display: block;
+            position: relative;
+        }
+
+        .contactame-sm a{
+            position: absolute;
+            width: 90%;
+            color: white;
+            text-decoration:none;
+            text-transform: uppercase;
             background: linear-gradient(180deg, #ea4335, #EB4A4A);
             padding: 10px 20px;
             border-radius: 20px;
             text-align: center;
             font-weight: 700;
             cursor: pointer;
-        }
-
-        .contactame-sm a{
-            color: white;
-            text-decoration:none;
-            text-transform: uppercase;
         }
 
         .boton-hover {
