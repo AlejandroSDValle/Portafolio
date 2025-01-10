@@ -58,7 +58,7 @@ Este portafolio está diseñado para mostrar mis habilidades en desarrollo web, 
 ### Proyecto 2: Sistema de Predicción de Ventas para Cremería
 - **Descripción:** Un sistema desarrollado con Django MVC para la interfaz visual y un algoritmo de Machine Learning para predecir las ventas de una cremería. Permite anticipar la demanda, evitar faltantes de stock y optimizar la gestión de inventarios.
 - **Tecnologías:** Django, Python, Machine Learning, HTML, Bootstrap
-- **Enlace:** [Repositorio](https://github.com/AlejandroSDValle)
+- **Enlace:** [Repositorio](https://github.com/AlejandroSDValle/Prediccion)
 
 ### Proyecto 3: Sistema CRUD Básico de Administración de Productos
 - **Descripción:** Sistema básico para gestionar productos, que incluye operaciones CRUD. Desarrollado con Spring Boot como REST Framework para el backend y React para el frontend. Implementa validaciones en el backend mediante excepciones personalizadas, garantizando una comunicación robusta y estructurada a través de APIs RESTful.
@@ -69,6 +69,11 @@ Este portafolio está diseñado para mostrar mis habilidades en desarrollo web, 
 - **Descripción:** Un sistema de ventas que incluye funcionalidades de predicción de ventas, inicio de sesión de usuarios, venta en línea, gestión de pedidos, productos y proveedores. Facilita la administración y operación eficiente de una cremería.
 - **Tecnologías:** Django, React, Python, MongoDB, Machine Learning
 - **Enlace:** [Repositorio](https://github.com/AlejandroSDValle)
+
+### Proyecto 5: Administrador de tareas
+- **Descripción:** Un administrador de tareas con backend en Spring Boot que incluye autenticación con JWT, excepciones personalizadas, interceptores y envío de correos con JavaMail. Ofrece gestión de usuarios, proyectos, tareas con estados (pendiente, en revisión, hecha) y notas. También permite manejo de equipos, verificación de cuentas por email, cambio de contraseña y actualización de datos de usuario.
+- **Tecnologías:** Spring boot, React, MySQL.
+- **Enlace:** [Repositorio](https://github.com/AlejandroSDValle/UpTask)
 
 ## Contacto
 - **Correo Electrónico:** alejandro_santillan_2000@hotmail.com

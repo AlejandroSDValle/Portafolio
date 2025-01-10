@@ -10,10 +10,10 @@ export const projects : project[] = [
     },
     {
         img: "Proyecto_2",
-        name: "Sistema prediccion",
+        name: "Sistema predicción",
         description : "Un sistema desarrollado con Django MVC para la interfaz visual y un algoritmo de Machine Learning para predecir las ventas. Permite anticipar demanda, evitar faltantes de stock y optimizar la gestión de inventarios.",
         tecnologies: ["Django", "Python", "Machine Learning", "HTML", "Bootstrap"],
-        link: "https://github.com/AlejandroSDValle"
+        link: "https://github.com/AlejandroSDValle/Prediccion"
     },
     {
         img: "Proyecto_3",
@@ -28,6 +28,13 @@ export const projects : project[] = [
         description : "Un sistema de ventas que incluye funcionalidades de predicción de ventas, inicio de sesión de usuarios, venta en línea, gestión de pedidos, productos y proveedores. Facilita la administración y operación eficiente de una cremería.",
         tecnologies: ["React", "TypeScript", "Node.js"],
         link: "https://github.com/AlejandroSDValle"
+    },
+    {
+        img: "Proyecto_5",
+        name: "Administrador de tareas",
+        description : "Un administrador de tareas con backend en Spring Boot que incluye autenticación con JWT, excepciones personalizadas, interceptores y envío de correos con JavaMail. Ofrece gestión de usuarios, proyectos, tareas con estados (pendiente, en revisión, hecha) y notas. También permite manejo de equipos, verificación de cuentas por email, cambio de contraseña y actualización de datos de usuario.",
+        tecnologies: ["Spring Boot", "React", "TypeScript"],
+        link: "https://github.com/AlejandroSDValle/UpTask"
     },
     
 ]
