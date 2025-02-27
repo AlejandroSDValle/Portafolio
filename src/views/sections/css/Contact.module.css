@@ -1,0 +1,43 @@
+.contact{
+    color: #fff;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+
+h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.socialLinks {
+    margin-bottom: 20px;
+}
+
+.socialLinks a {
+    color: #37B6E8;
+    text-decoration: none;
+    font-size: 1.2rem;
+    margin: 0 10px;
+    transition: color 0.3s ease;
+}
+
+.socialLinks a:hover {
+    color: #fff;
+}
+
+.downloadCv {
+    display: inline-block;
+    background-color: #37B6E8;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.downloadCv:hover {
+    background-color: #2c8fb2;
+    transform: scale(1.05);
+}

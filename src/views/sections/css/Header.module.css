@@ -1,0 +1,34 @@
+.header{
+    display: flex;
+    padding: 20px;
+    color: white;
+}
+
+.headerTitle {
+    margin: 0 50px;
+    font-size: 3rem;
+}
+
+.headerEmailEnlace {
+    color: white;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
+@media (max-width: 768px) {
+
+    .header{
+        flex-direction: column;
+        align-items: center;
+        padding: 15px;
+    }
+   
+    .headerTitle {
+        margin: 0;
+        font-size: 24px;
+    }
+
+    .headerEmail {
+        margin: 10px 0 0;
+    }
+}
