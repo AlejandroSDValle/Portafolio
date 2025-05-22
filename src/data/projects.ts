@@ -110,5 +110,77 @@ export const projects : project[] = [
 
         ]
     },
+    {
+        id: 6,
+        img: "Proyecto_6",
+        name: "Administración de hojas de vida",
+        shortDescription: "Aplicación desarrollada con Django MVC. Permite subir archivos PDF de CVs, los cuales son analizados mediante Procesamiento de Lenguaje Natural (PLN) para extraer información clave como experiencia, formación académica y más. La información se organiza en perfiles profesionales que son almacenados, buscados y filtrados fácilmente, facilitando procesos de reclutamiento y selección de talento.",
+        fullDescription:  `Sistema de administración y análisis inteligente de hojas de vida para procesos de reclutamiento.
+
+        Nota: Los datos y cualquier dato visual mostrado en este proyecto son ficticios y se utilizan únicamente con fines de demostración. No representan información personal real.
+
+        Esta aplicación web facilita la gestión de perfiles profesionales dentro de procesos de selección, permitiendo almacenar, buscar, filtrar y analizar hojas de vida de acuerdo con las necesidades de un proyecto o empresa. Ha sido desarrollada bajo el patrón de arquitectura MVC utilizando Django como framework principal y PostgreSQL como sistema gestor de base de datos. Para la extracción automatizada de información desde archivos PDF, se emplean técnicas de Procesamiento de Lenguaje Natural (PLN) mediante la biblioteca spaCy, lo que permite identificar y estructurar datos clave como experiencia, formación académica, habilidades, idiomas, certificaciones y más.
+
+        Características principales:
+        - Carga automática de hojas de vida en PDF: Solo el perfil administrador puede agregar nuevas hojas de vida, las cuales son procesadas automáticamente por el sistema, extrayendo toda la información relevante del profesional para almacenarla estructuradamente en la base de datos.
+        - Filtrado de profesionales: Los usuarios pueden buscar y filtrar perfiles de acuerdo con criterios específicos como años de experiencia, tecnologías manejadas, nivel de estudios, idiomas, entre otros, facilitando la identificación del talento ideal para cada vacante o proyecto.
+        - Cronología de experiencia laboral: El sistema genera una línea temporal interactiva que permite visualizar de forma clara y ordenada la experiencia laboral total del profesional, incluso en casos donde existen proyectos simultáneos, permitiendo una mejor estimación de la trayectoria real.  
+        
+        Perfiles de usuario:
+        - Lector: Puede visualizar la información del profesional, descargar la hoja de vida en PDF, generar un Excel con los datos academicos, personales o laborales, y acceder a documentos anexos como diplomas, certificados o constancias previamente cargadas.
+        - Editor: Tiene acceso a todas las funciones del lector, además de poder modificar la información del profesional, incluyendo experiencia, formación y documentos cargados. También puede actualizar la hoja de vida si se proporciona una versión nueva.
+        - Administrador: Dispone de control total sobre el sistema. Puede crear y administrar usuarios, asignar roles, eliminar perfiles profesionales, editar cualquier información existente y es el único con permisos para agregar nuevas hojas de vida al sistema para su procesamiento automático.`,
+
+        tecnologies: ["Django MVC", "Python", "Machine Learning", "spaCy", "PostgreSQL"],
+        link: "https://github.com/AlejandroSDValle/HAC",
+        imagenes:[
+            {
+                "imagen": "Proyecto_6_1",
+                "descripcion": "En la página principal se encuentra un buscador que permite filtrar a los profesionales. En la siguiente imagen se muestra cómo se visualizan los resultados, con una presentación resumida de cada perfil y un sistema de paginación en caso de que haya múltiples resultados."
+            },
+            {
+                "imagen": "Proyecto_6_2",
+                "descripcion": "Esta sección corresponde al perfil del profesional, donde se visualiza toda su información de manera detallada. Desde aquí se pueden descargar tanto la hoja de vida en PDF como los anexos relacionados, como diplomas, certificados de experiencia y la cronología de su trayectoria laboral."
+            },
+            {
+                "imagen": "Proyecto_6_3",
+                "descripcion": "En esta imagen se presenta la información detallada sobre la experiencia laboral del profesional."
+            },
+            {
+                "imagen": "Proyecto_6_4",
+                "descripcion": "Aquí se muestra la cronología del profesional, la cual permite visualizar con claridad los periodos en los que ha trabajado. Es especialmente útil para detectar cuando una persona ha participado en varios proyectos simultáneamente y calcular correctamente su experiencia total a lo largo de los años."
+            }
+            ,
+            {
+                "imagen": "Proyecto_6_5",
+                "descripcion": "Esta es la página de inicio de sesión (login) del sistema."
+            }
+            ,
+            {
+                "imagen": "Proyecto_6_6",
+                "descripcion": "En esta imagen se muestra la vista principal del perfil de administrador, desde donde se pueden realizar acciones adicionales como editar o eliminar profesionales, en caso de ser necesario."
+            }
+            ,
+            {
+                "imagen": "Proyecto_6_7",
+                "descripcion": "El administrador también tiene la capacidad de agregar o actualizar la hoja de vida en PDF de un profesional, así como añadir anexos relacionados con su experiencia o formación académica."
+            }
+            ,
+            {
+                "imagen": "Proyecto_6_8",
+                "descripcion": "Esta pantalla permite al administrador registrar a un nuevo profesional, agregando su hoja de vida en PDF y los anexos correspondientes. Aquí es donde entra en acción el modelo de inteligencia artificial, encargado de procesar el PDF y extraer automáticamente la información relevante del profesional."
+            }
+            ,
+            {
+                "imagen": "Proyecto_6_9",
+                "descripcion": "En esta imagen se muestra la etapa de validación, donde el usuario puede revisar la información extraída por el modelo de IA y realizar correcciones en caso de que haya errores."
+            }
+            ,
+            {
+                "imagen": "Proyecto_6_10",
+                "descripcion": "En esta sección se puede observar que, si el modelo no detecta todas las experiencias o formaciones académicas, o si por el contrario detecta información de más, el usuario puede eliminar o agregar entradas manualmente. Posteriormente, la información validada se puede guardar como un nuevo perfil completo del profesional."
+            }
+        ]
+    },
     
 ]
