@@ -102,10 +102,23 @@ export const projects : project[] = [
         id: 5,
         img: "Proyecto_5",
         name: "Tienda online",
-        shortDescription: "Un sistema de ventas que incluye funcionalidades de predicción de ventas, inicio de sesión de usuarios, venta en línea, gestión de pedidos, productos y proveedores. Facilita la administración y operación eficiente de una cremería.",
-        fullDescription: `Un sistema de ventas que incluye funcionalidades de predicción de ventas, inicio de sesión de usuarios, venta en línea, gestión de pedidos, productos y proveedores. Facilita la administración y operación eficiente de una cremería.`,
+        shortDescription: "Sistema integral para la gestión de una tienda, que permite registrar ventas, gestionar compras y procesar pedidos en línea con verificación presencial para asegurar autenticidad de usuarios.",
+        fullDescription: `Este sistema web está diseñado para optimizar y digitalizar las operaciones de una tienda. Permite registrar ventas dentro del local, gestionar compras a proveedores para mantener actualizado el inventario, y recibir pedidos en línea por parte de los clientes.
+
+        A diferencia de otros sistemas, la creación de cuentas de cliente incluye un mecanismo de verificación doble: primero, se envía un token al correo electrónico para validar la dirección y evitar bots; luego, este token debe presentarse físicamente en la tienda para activar la cuenta, asegurando que el usuario realmente puede acudir por sus pedidos. Este enfoque previene pedidos falsos o innecesarios generados desde lugares a los que la tienda no realiza entregas.
+
+        Los roles del sistema:
+        Cliente: puede crear una cuenta, realizar pedidos en línea, ver su historial, filtrar pedidos por fecha o estado, y consultar quién despachó el pedido en caso de reclamos.
+        
+        Empleado: puede registrar ventas en tienda, procesar pedidos de clientes, validar cuentas, registrar compras a proveedores y actualizar el estado de los pedidos.
+
+        Administrador: tiene acceso a todas las funciones anteriores y además puede gestionar productos, marcas, categorías y usuarios. También tiene acceso a estadísticas de negocio como productos más vendidos, clientes frecuentes, y pérdidas por caducidad o merma.
+
+        A futuro, se planea desarrollar un frontend completo y una versión del mismo sistema basada en microservicios. Este proyecto representa una evolución del sistema de predicción previo <Link to="/proyecto/4">Ir al Proyecto</Link>, ya que ahora permite a los usuarios externos realizar pedidos en línea, no solo registrar ventas internas.
+
+        (Proyecto en desarrollo – funcionalidades en crecimiento)`,
         tecnologies: ["React", "TypeScript", "Node.js"],
-        link: "https://github.com/AlejandroSDValle",
+        link: "https://github.com/AlejandroSDValle/tienda-online",
         imagenes:[
 
         ]

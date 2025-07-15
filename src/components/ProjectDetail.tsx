@@ -41,14 +41,18 @@ function ProjectDetail({ project }: ProjectDetailProps) {
         <h2>{project.name}</h2>
         <img src={`/Proyecto_${project.id}/${project.img}.png`} alt={project.name} />
 
-        <p className={styles.descripcionProyecto}>
-        {project.fullDescription.split("\n").map((line, index) => (
-          <React.Fragment key={index}>
-            {line}
-            <br />
-          </React.Fragment>
-        ))}
-      </p>
+        {/* <p className={styles.descripcionProyecto}>
+          {project.fullDescription.split("\n").map((line, index) => (
+            <React.Fragment key={index}>
+              {line}
+              <br />
+            </React.Fragment>
+          ))}
+        </p> */}
+        <div
+          className={styles.descripcionProyecto}
+          dangerouslySetInnerHTML={{ __html: project.fullDescription }}
+        />
 
         <a href={project.link} target="_blank" rel="noopener noreferrer">
             <FaGithub className={styles.githubIcon} />
