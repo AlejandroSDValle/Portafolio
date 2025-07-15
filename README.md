@@ -67,8 +67,8 @@ Este portafolio está diseñado para mostrar mis habilidades en desarrollo web, 
 
 ### Proyecto 4: Sistema de Ventas Completo
 - **Descripción:** Un sistema de ventas que incluye funcionalidades de predicción de ventas, inicio de sesión de usuarios, venta en línea, gestión de pedidos, productos y proveedores. Facilita la administración y operación eficiente de una cremería.
-- **Tecnologías:** Django, React, Python, MongoDB, Machine Learning
-- **Enlace:** [Repositorio](https://github.com/AlejandroSDValle)
+- **Tecnologías:** Java, Spring boot, Spring Security
+- **Enlace:** [Repositorio](https://github.com/AlejandroSDValle/tienda-online)
 
 ### Proyecto 5: Administrador de tareas
 - **Descripción:** Un administrador de tareas con backend en Spring Boot que incluye autenticación con JWT, excepciones personalizadas, interceptores y envío de correos con JavaMail. Ofrece gestión de usuarios, proyectos, tareas con estados (pendiente, en revisión, hecha) y notas. También permite manejo de equipos, verificación de cuentas por email, cambio de contraseña y actualización de datos de usuario.

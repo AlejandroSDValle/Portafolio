@@ -4,7 +4,7 @@ import styles from "./styles/ProjectDetail.module.css"
 import Header from "../views/sections/Header";
 import { projects } from '../data/projects';
 import { FaGithub } from 'react-icons/fa';
-import React from "react";
+// import React from "react";
 
 type ProjectDetailProps = {
   project: project
