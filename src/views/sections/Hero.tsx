@@ -1,4 +1,5 @@
-import { FaGithub, FaLinkedin, FaFacebook, FaWhatsapp } from 'react-icons/fa';
+import { FaGithub, FaLinkedin, FaFacebook } from 'react-icons/fa';
+import { MdEmail } from 'react-icons/md';
 import styles from "./css/Hero.module.css"
 
 function Hero() {
@@ -23,7 +24,7 @@ function Hero() {
                     <a href="https://github.com/AlejandroSDValle" target="_blank" rel="noopener noreferrer"><FaGithub /></a>
                     <a href="#" target="_blank" rel="noopener noreferrer"><FaFacebook /></a>
                     <a href="https://www.linkedin.com/in/alejandro-santillan-32a089218" target="_blank" rel="noopener noreferrer"><FaLinkedin /></a>
-                    <a href="#" target="_blank" rel="noopener noreferrer"><FaWhatsapp /></a>
+                    <a href="mailto:alejandro_santillan_2000@hotmail.com"><MdEmail /></a>
                 </div>
             </div>
 
