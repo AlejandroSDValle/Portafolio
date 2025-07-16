@@ -101,6 +101,17 @@ img {
     color: #fff;
 }
 
+.inlineLink {
+  color: #4cc9f0;
+  text-decoration: underline;
+  font-weight: 500;
+  cursor: pointer;
+  transition: color 0.2s ease-in-out;
+}
+
+.inlineLink:hover {
+  color: #90e0ef;
+}
 
 @media (max-width: 550px) {
 

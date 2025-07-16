@@ -4,7 +4,7 @@ import styles from "./styles/ProjectDetail.module.css"
 import Header from "../views/sections/Header";
 import { projects } from '../data/projects';
 import { FaGithub } from 'react-icons/fa';
-// import React from "react";
+import React from "react";
 
 type ProjectDetailProps = {
   project: project
@@ -14,6 +14,54 @@ type ProjectDetailProps = {
 function ProjectDetail({ project }: ProjectDetailProps) {
 
   const totalProjects = projects.length;
+
+  const renderDescripcion = (descripcion: string): React.ReactNode[] => {
+    const linkRegex = /<Link to="([^"]+)">([^<]+)<\/Link>/g;
+    const partes: React.ReactNode[] = [];
+    let lastIndex = 0;
+
+    let match: RegExpExecArray | null;
+
+    while ((match = linkRegex.exec(descripcion)) !== null) {
+      const fullMatch = match[0];
+      const ruta = match[1];
+      const texto = match[2];
+
+      const textoAntes = descripcion.slice(lastIndex, match.index);
+
+      // Añadir el texto anterior dividido por saltos de línea
+      textoAntes.split("\n").forEach((linea, i) => {
+        partes.push(
+          <React.Fragment key={`${match!.index}-before-${i}`}>
+            {linea}
+            <br />
+          </React.Fragment>
+        );
+      });
+
+      // Añadir el Link de React Router
+      partes.push(
+        <Link key={`link-${match.index}`} to={ruta} className={styles.inlineLink}>
+          {texto}
+        </Link>
+      );
+
+      lastIndex = match.index + fullMatch.length;
+    }
+
+    // Añadir el resto del texto después del último Link
+    const textoRestante = descripcion.slice(lastIndex);
+    textoRestante.split("\n").forEach((linea, i) => {
+      partes.push(
+        <React.Fragment key={`rest-${i}`}>
+          {linea}
+          <br />
+        </React.Fragment>
+      );
+    });
+
+    return partes;
+  };
 
   return (
     <>
@@ -41,21 +89,12 @@ function ProjectDetail({ project }: ProjectDetailProps) {
         <h2>{project.name}</h2>
         <img src={`/Proyecto_${project.id}/${project.img}.png`} alt={project.name} />
 
-        {/* <p className={styles.descripcionProyecto}>
-          {project.fullDescription.split("\n").map((line, index) => (
-            <React.Fragment key={index}>
-              {line}
-              <br />
-            </React.Fragment>
-          ))}
-        </p> */}
-        <div
-          className={styles.descripcionProyecto}
-          dangerouslySetInnerHTML={{ __html: project.fullDescription }}
-        />
+        <p className={styles.descripcionProyecto}>
+          {renderDescripcion(project.fullDescription)}
+        </p>
 
         <a href={project.link} target="_blank" rel="noopener noreferrer">
-            <FaGithub className={styles.githubIcon} />
+          <FaGithub className={styles.githubIcon} />
         </a>
 
         <div className={styles.imagenesContainer}>

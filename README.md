@@ -67,13 +67,18 @@ Este portafolio está diseñado para mostrar mis habilidades en desarrollo web, 
 
 ### Proyecto 4: Sistema de Ventas Completo
 - **Descripción:** Un sistema de ventas que incluye funcionalidades de predicción de ventas, inicio de sesión de usuarios, venta en línea, gestión de pedidos, productos y proveedores. Facilita la administración y operación eficiente de una cremería.
-- **Tecnologías:** Java, Spring boot, Spring Security
+- **Tecnologías:** Docker, Docker Compose, Java, Spring Boot, Spring Security, JUnit5, Mockito, Microservicios, MySQL, Angular
 - **Enlace:** [Repositorio](https://github.com/AlejandroSDValle/tienda-online)
 
 ### Proyecto 5: Administrador de tareas
 - **Descripción:** Un administrador de tareas con backend en Spring Boot que incluye autenticación con JWT, excepciones personalizadas, interceptores y envío de correos con JavaMail. Ofrece gestión de usuarios, proyectos, tareas con estados (pendiente, en revisión, hecha) y notas. También permite manejo de equipos, verificación de cuentas por email, cambio de contraseña y actualización de datos de usuario.
 - **Tecnologías:** Spring boot, React, MySQL.
 - **Enlace:** [Repositorio](https://github.com/AlejandroSDValle/UpTask)
+
+### Proyecto 6: Administración de hojas de vida
+- **Descripción:** plicación desarrollada con Django MVC. Permite subir archivos PDF de CVs, los cuales son analizados mediante Procesamiento de Lenguaje Natural (PLN) para extraer información clave como experiencia, formación académica y más. La información se organiza en perfiles profesionales que son almacenados, buscados y filtrados fácilmente, facilitando procesos de reclutamiento y selección de talento.
+- **Tecnologías:** Django MVC, Python, Machine Learning, spaCy, PostgreSQL
+- **Enlace:** [Repositorio](https://github.com/AlejandroSDValle)
 
 ## Contacto
 - **Correo Electrónico:** alejandro_santillan_2000@hotmail.com

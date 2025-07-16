@@ -117,7 +117,7 @@ export const projects : project[] = [
         A futuro, se planea desarrollar un frontend completo y una versión del mismo sistema basada en microservicios. Este proyecto representa una evolución del sistema de predicción previo <Link to="/proyecto/4">Ir al Proyecto</Link>, ya que ahora permite a los usuarios externos realizar pedidos en línea, no solo registrar ventas internas.
 
         (Proyecto en desarrollo – funcionalidades en crecimiento)`,
-        tecnologies: ["Java", "Spring Boot", "Spring Security"],
+        tecnologies: ["Docker", "Docker Compose", "Java", "Spring Boot", "Spring Security", "JUnit5", "Mockito", "Microservicios", "MySQL", "Angular"],
         link: "https://github.com/AlejandroSDValle/tienda-online",
         imagenes:[
 
