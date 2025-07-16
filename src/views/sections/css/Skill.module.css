@@ -1,13 +1,22 @@
 .skills{
-    padding: 50px;
+    padding: 40px;
     text-align: center;
-    color: #333;
+    color: #2b2b2b;
 }
 
 h2 {
-    font-size: 36px;
-    color: #45a29e;
-    margin-bottom: 30px;
+  font-size: 32px;
+  color: #222;
+  margin-bottom: 40px;
+}
+
+.categoria {
+  font-size: 24px;
+  color: #45a29e;
+  margin: 30px 0 20px;
+  border-bottom: 2px solid #45a29e;
+  display: inline-block;
+  padding-bottom: 5px;
 }
 
 .skillCards {
@@ -18,32 +27,34 @@ h2 {
 }
 
 .cardTec {
-    background-color: #1f2833;
-    border-radius: 10px;
-    padding: 20px;
-    width: 150px;
-    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1);
-    transition: transform 0.3s, box-shadow 0.3s;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+  background-color: rgb(226, 226, 226);
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  padding: 20px;
+  width: 160px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .cardTec img {
-    max-width: 80px;
-    max-height: 80px;
+    max-width: 100px;
+    max-height: 100px;
     margin-bottom: 15px;
     object-fit: contain;
 }
 
 .cardTec p {
-    font-size: 18px;
-    color: white;
+  font-size: 15px;
+  color: #333;
+  font-weight: bold;
+  text-align: center;
 }
 
 .cardTec:hover {
-    transform: translateY(-10px);
-    box-shadow: 0 8px 16px rgba(255, 255, 255, 0.2);
+  transform: scale(1.05);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }

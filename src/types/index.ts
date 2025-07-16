@@ -1,4 +1,5 @@
 export type skill = {
+    categoria: string,
     img: string
     tecnologia: string
 }
