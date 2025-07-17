@@ -22,45 +22,91 @@ h2 {
     flex-wrap: wrap;
 }
 
-.aboutText,
-.experience {
-    flex: 1;
-    background-color: #1f2833;
-    padding: 15px;
-    border-radius: 15px;
-}
-
-.aboutText p,
-.experience p {
-    font-size: 1.4rem;
-    line-height: 1.6;
-    text-align: justify;
-}
-
-.experience {
-    padding: 20px;
+.terminalContainer {
+    background-color: #1e1e1e;
     border-radius: 10px;
-    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
+    font-family: 'Fira Code', monospace;
+    color: #d4d4d4;
+    max-width: 700px;
+    margin: 0px auto;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+    font-size: 1.4rem;
 }
 
-h3 {
-    font-size: 1.8rem;
-    color: #45a29e;
-    margin-bottom: 10px;
+.terminalHeader {
+    background-color: #2e2e2e;
+    padding: 8px 12px;
+    display: flex;
+    gap: 8px;
 }
 
-strong {
-    color: #45a29e;
+.btn {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    display: inline-block;
+    cursor: pointer;
 }
 
-@media (max-width: 675px) {
-    .aboutColumns {
-        flex-direction: column;
-    }
-
-    .aboutText p,
-    .experience p {
-        text-align: center;
-        text-justify: inter-word;
-    }
+.red {
+    background-color: #ff5f56;
 }
+
+.yellow {
+    background-color: #ffbd2e;
+}
+
+.green {
+    background-color: #27c93f;
+}
+
+.terminalBody {
+    padding: 20px;
+    white-space: pre-wrap;
+    line-height: 1.6;
+}
+
+.lineNumber {
+    color: #888;
+}
+
+.command {
+    color: #4ec9b0;
+}
+
+.output {
+    margin-left: 30px;
+    color: #ccc;
+}
+
+.terminatedMessage {
+  color: #ff5f5f;
+  font-style: italic;
+  font-family: 'Fira Code', monospace;
+}
+
+.vimBox {
+  font-family: 'Courier New', Courier, monospace;
+  background-color: #1e1e1e;
+  color: #9cdcfe;
+  padding: 1rem;
+  margin: 10px 0;
+  overflow-x: auto;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.vimBox strong {
+    color: #4ec9b0;
+}
+
+.lineNumberVim {
+  display: inline-block;
+  width: 2ch;
+  color: #5c6370;
+  user-select: none;
+}
+
+
+
